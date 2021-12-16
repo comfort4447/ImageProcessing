@@ -6,6 +6,7 @@
   "scripts": {
     "start": "nodemon src/index.ts",
     "test": "yarn run build && yarn run jasmine",
+    "jasmine": "jasmine",
     "build": "npx tsc",
     "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "prettier:check": "prettier --config .prettierrc 'src/**/*.ts' --check .",
